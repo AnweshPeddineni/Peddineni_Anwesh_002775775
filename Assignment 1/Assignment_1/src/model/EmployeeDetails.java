@@ -22,6 +22,7 @@ public class EmployeeDetails {
     private int cellPhoneNumber;
     private String emailId;
     private ImageIcon photo;
+    private String filePath;
 
     public String getName() {
         return name;
@@ -110,6 +111,16 @@ public class EmployeeDetails {
     public void setPhoto(ImageIcon photo) {
         this.photo = photo;
     }
+
+    public String getFilePath() {
+        return filePath;
+    }
+
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
+    
+    
 
       @Override
       public String toString(){

@@ -37,4 +37,8 @@ public class ProfileList {
         list.remove(ed);
     }
     
+    public ArrayList<EmployeeDetails> getEmployeeList(){
+        return list;
+    }
+    
 }
